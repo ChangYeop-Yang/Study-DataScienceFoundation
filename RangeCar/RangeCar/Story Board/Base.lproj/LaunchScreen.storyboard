@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JVb-ah-tQn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sportive-car" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g7g-qV-wVP">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sportive-elegant-car-side-view" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jpg-9k-hEl">
+                                        <rect key="frame" x="125" y="0.0" width="125" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KEI-wE-e58">
+                                        <rect key="frame" x="250" y="0.0" width="125" height="60"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wnm-F2-uVg"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifying-glass-finder" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QEP-Xq-vU9">
+                                <rect key="frame" x="67" y="269" width="241" height="129"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RANGE CAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0J-yR-xae">
+                                <rect key="frame" x="10" y="406" width="355" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sports-car" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t02-IU-19k">
+                                <rect key="frame" x="162" y="317.5" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="ELa-hc-68s"/>
+                                    <constraint firstAttribute="height" constant="32" id="LOI-fq-AxA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (C) 2018 Mr.Yang all rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VA-Iz-DVc">
+                                <rect key="frame" x="10" y="639" width="355" height="18"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QEP-Xq-vU9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="4sr-MA-Hip"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0VA-Iz-DVc" secondAttribute="bottom" constant="10" id="6TW-k7-dCy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0VA-Iz-DVc" secondAttribute="trailing" constant="10" id="Mbi-jP-KNF"/>
+                            <constraint firstItem="QEP-Xq-vU9" firstAttribute="leading" secondItem="t02-IU-19k" secondAttribute="trailing" constant="-127" id="Qse-At-d6z"/>
+                            <constraint firstItem="M0J-yR-xae" firstAttribute="top" secondItem="QEP-Xq-vU9" secondAttribute="bottom" constant="8" id="VsB-R4-X3U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JVb-ah-tQn" secondAttribute="trailing" id="Ykv-XT-6pj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M0J-yR-xae" secondAttribute="trailing" constant="10" id="Yqv-rH-FnP"/>
+                            <constraint firstItem="QEP-Xq-vU9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zty-pa-zYB"/>
+                            <constraint firstItem="M0J-yR-xae" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="dxY-9P-AV4"/>
+                            <constraint firstItem="t02-IU-19k" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="f6u-N0-41N"/>
+                            <constraint firstItem="QEP-Xq-vU9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="249" id="hDx-Xo-EWi"/>
+                            <constraint firstItem="QEP-Xq-vU9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jG7-4c-OfC"/>
+                            <constraint firstItem="JVb-ah-tQn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pQ6-hs-hU9"/>
+                            <constraint firstItem="0VA-Iz-DVc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="tpJ-gc-JAM"/>
+                            <constraint firstItem="JVb-ah-tQn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ycf-31-gap"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="64" height="64"/>
+        <image name="magnifying-glass-finder" width="256" height="256"/>
+        <image name="sportive-car" width="64" height="64"/>
+        <image name="sportive-elegant-car-side-view" width="64" height="64"/>
+        <image name="sports-car" width="32" height="32"/>
+    </resources>
+</document>
