@@ -1,5 +1,13 @@
 # Study-DataScienceFoundation
 
+* * *
+
+<div id="container">
+    <img src ="https://user-images.githubusercontent.com/20036523/43962784-863f6410-9cf3-11e8-939e-807a6dd0bf7e.gif"/>
+</div>
+
+* * *
+
 ## ★ Outline
 Big Data Science and its Analytics plays a major role in this decade. How to clean and prepare your data for analysis is still a challenge, like How to perform basic visualization of your data, How to model your data, How to curve-fit your data, And finally, how to present your findings and wow the audience
 
