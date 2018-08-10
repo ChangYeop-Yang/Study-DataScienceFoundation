@@ -1,11 +1,5 @@
 # Study-DataScienceFoundation
 
-## ★ Demo Play
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/20036523/43962784-863f6410-9cf3-11e8-939e-807a6dd0bf7e.gif">
-</p>
-
 ## ★ Outline
 Big Data Science and its Analytics plays a major role in this decade. How to clean and prepare your data for analysis is still a challenge, like How to perform basic visualization of your data, How to model your data, How to curve-fit your data, And finally, how to present your findings and wow the audience
 
@@ -36,6 +30,12 @@ collecting car models and location data when a car is taken with a mobile applic
 |PHOTO 5|PHOTO 6|
 |:-----:|:-----:|
 |![](https://user-images.githubusercontent.com/20036523/43890138-df1ad842-9c00-11e8-81bf-a5dc8d0b3f42.jpg)|![](https://user-images.githubusercontent.com/20036523/43890139-df45d51a-9c00-11e8-8696-381938845a26.jpg)|
+
+## ★ Demo Play
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/20036523/43962784-863f6410-9cf3-11e8-939e-807a6dd0bf7e.gif">
+</p>
 
 ## ★ Project Reference
 1. Wikipedia, Apache Hadoop, https://ko.wikipedia.org/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%ED%95%98%EB%91%A1
