@@ -2,9 +2,9 @@
 
 * * *
 
-<div id="container">
-    <img src ="https://user-images.githubusercontent.com/20036523/43962784-863f6410-9cf3-11e8-939e-807a6dd0bf7e.gif"/>
-</div>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/20036523/43962784-863f6410-9cf3-11e8-939e-807a6dd0bf7e.gif">
+</p>
 
 * * *
 
